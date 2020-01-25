@@ -1,6 +1,7 @@
 @import url("config/colors.css");
 @import url("config/fonts.css");
 @import url("components/index.css");
+@import url("components/navbar.css");
 
 body {
   margin: 0 auto;
@@ -23,4 +24,14 @@ body {
 #description-banner {
   color: white;
   text-align: center;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+#about {
+  padding: 8vh 0;
 }

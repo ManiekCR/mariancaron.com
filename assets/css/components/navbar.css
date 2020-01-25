@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #212121;
+  color: white;
+  border-bottom: 2px solid #38B6FF;
+}
+
+.navbar .active {
+  color: #38B6FF !important;
+}
+
+.nav-link {
+  color: inherit;
+}
