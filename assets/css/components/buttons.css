@@ -1,0 +1,9 @@
+.banner-button {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border: 2px solid white;
+  width: 175px;
+  text-align: center;
+  padding: 10px 0;
+}

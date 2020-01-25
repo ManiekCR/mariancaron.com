@@ -1,0 +1,26 @@
+@import url("config/colors.css");
+@import url("config/fonts.css");
+@import url("components/index.css");
+
+body {
+  margin: 0 auto;
+}
+
+.banner {
+  background: url("../images/banner.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#intro-banner {
+  color: #38B6FF;
+  text-align: center;
+}
+
+#description-banner {
+  color: white;
+  text-align: center;
+}
