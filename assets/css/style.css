@@ -3,8 +3,17 @@
 @import url("components/index.css");
 @import url("components/navbar.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
+}
+
+.banner a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .banner {
@@ -34,4 +43,9 @@ body {
 
 #about {
   padding: 8vh 0;
+}
+
+#projects {
+  background-color: #F5F5F5;
+  height: 300px;
 }
