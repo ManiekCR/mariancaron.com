@@ -1,0 +1,46 @@
+.bar {
+  width: 500px;
+  background-color: #EEEEEE;
+  margin-bottom: 10px;
+}
+
+.bar-label {
+  background-color: #75ccff;
+  width: 22%;
+  text-align: center;
+  color: white;
+  padding: .5vh 0;
+  font-size: 13px;
+}
+
+.bar-fill {
+  background-color: #38B6FF;
+}
+
+#fill-html {
+  width: 65%;
+}
+
+#fill-css {
+  width: 64%;
+}
+
+#fill-ruby {
+  width: 60%;
+}
+
+#fill-javascript {
+  width: 53%;
+}
+
+#fill-postgresql {
+  width: 50%;
+}
+
+#fill-react {
+  width: 40%
+}
+
+#fill-golang {
+  width: 35%;
+}
