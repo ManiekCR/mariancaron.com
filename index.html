@@ -23,55 +23,132 @@
   </div>
   <nav class="nav navbar justify-content-start sticky-top">
     <a class="nav-link active" href="#">HOME</a>
-    <a class="nav-link" href="#">ABOUT</a>
-    <a class="nav-link" href="#">PROJECTS</a>
-    <a class="nav-link" href="#">CONTACT</a>
+    <a class="nav-link" href="#about">ABOUT</a>
+    <a class="nav-link" href="#projects">PROJECTS</a>
+    <a class="nav-link" href="#contact">CONTACT</a>
   </nav>
   <!-- ABOUT -->
   <section id="about">
     <div class="container">
-      <h1 class="text-center"><strong>ABOUT</strong></h1>
-      <div class="d-flex">
-        <div>
-          <img src="assets/images/profile-pic.jpeg" id="profile-pic" alt="profile-pic">
-          <p>I'm a French guy living in Berlin, passionated about web development and technologies.</p>
+      <h1 class="text-center"><strong class="border-bottom border-secondary">ABOUT</strong></h1>
+      <div class="row d-flex justify-content-center mt-5 pt-3">
+        <div class="col-12 col-lg-6">
+          <div class="d-flex justify-content-center mb-2">
+            <div id="bio">
+              <div class="d-flex justify-content-center">
+                <img src="assets/images/profile-pic.jpeg" id="profile-pic" alt="profile-pic">
+              </div>
+              <div class="d-flex justify-content-center" id="bio-description">
+                <p>I come from France and I am currently living in Berlin, passionated about web development and new technologies.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <div class="bar d-flex">
-            <div class="bar-label"><strong>HTML</strong></div>
-            <div class="bar-fill" id="fill-html"></div>
-          </div>
-          <div class="bar d-flex">
-            <div class="bar-label"><strong>CSS</strong></div>
-            <div class="bar-fill" id="fill-css"></div>
-          </div>
-          <div class="bar d-flex">
-            <div class="bar-label"><strong>Ruby on Rails</strong></div>
-            <div class="bar-fill" id="fill-ruby"></div>
-          </div>
-          <div class="bar d-flex">
-            <div class="bar-label"><strong>Javascript</strong></div>
-            <div class="bar-fill" id="fill-javascript"></div>
-          </div>
-          <div class="bar d-flex">
-            <div class="bar-label"><strong>PostgreSQL</strong></div>
-            <div class="bar-fill" id="fill-postgresql"></div>
-          </div>
-          <div class="bar d-flex">
-            <div class="bar-label"><strong>React</strong></div>
-            <div class="bar-fill" id="fill-react"></div>
-          </div>
-          <div class="bar d-flex">
-            <div class="bar-label"><strong>Golang</strong></div>
-            <div class="bar-fill" id="fill-golang"></div>
+        <div class="col-12 col-lg-6">
+          <div class="d-flex justify-content-center">
+            <div>
+              <div class="bar d-flex">
+                <div class="bar-label"><strong>HTML</strong></div>
+                <div class="bar-fill" id="fill-html"></div>
+              </div>
+              <div class="bar d-flex">
+                <div class="bar-label"><strong>CSS</strong></div>
+                <div class="bar-fill" id="fill-css"></div>
+              </div>
+              <div class="bar d-flex">
+                <div class="bar-label"><strong>Ruby on Rails</strong></div>
+                <div class="bar-fill" id="fill-ruby"></div>
+              </div>
+              <div class="bar d-flex">
+                <div class="bar-label"><strong>Javascript</strong></div>
+                <div class="bar-fill" id="fill-javascript"></div>
+              </div>
+              <div class="bar d-flex">
+                <div class="bar-label"><strong>SQL</strong></div>
+                <div class="bar-fill" id="fill-sql"></div>
+              </div>
+              <div class="bar d-flex">
+                <div class="bar-label"><strong>React</strong></div>
+                <div class="bar-fill" id="fill-react"></div>
+              </div>
+              <div class="bar d-flex">
+                <div class="bar-label"><strong>Golang</strong></div>
+                <div class="bar-fill" id="fill-golang"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
   </section>
-  <section id="projects"></section>
-  <section id="contact"></section>
+  <!---->
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container mb-5 pb-3">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center"><strong class="border-bottom border-secondary">PROJECTS</strong></h1>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mt-5 pt-3">
+        <div class="col-12 col-lg-6 col-xl-4">
+          <div class="d-flex justify-content-center">
+            <a href="http://iwell.herokuapp.com/" target="_blank">
+              <div class="card">
+                <img src="assets/images/iwell.png" alt="iWell">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+          <div class="d-flex justify-content-center">
+            <a href="http://rails-instrurent.herokuapp.com/" target="_blank">
+              <div class="card">
+                <img src="assets/images/instrurent.png" alt="InstruRent">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4">
+          <div class="d-flex justify-content-center">
+            <a href="http://le-bar-berlin288.herokuapp.com" target="_blank">
+              <div class="card">
+                <img src="assets/images/lebar.png" alt="Le Bar">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---->
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h1 class="text-center"><strong class="border-bottom border-secondary">CONTACT</strong></h1>
+      <p class="text-center mt-3 pt-4" style="color: #75CCFF"> Have a question or want to work together?</p>
+      <p class="text-center">Please find all my contacts below.</p>
+    </div>
+  </section>
+  <!---->
+  <footer>
+    <div class="footer">
+        <a href="#" id="link-top"><i class="fas fa-angle-double-up"></i></a>
+        <div class="d-flex justify-content-around">
+          <div class="footer-links">
+            <a href="https://github.com/ManiekCR" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/maniieeek" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/marian.caron.14" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/marian59200" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/mariancaron/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div id="footer-email" class="align-self-center">
+            <a href="mailto:caron.marian@gmail.com">caron.marian@gmail.com</a>
+          </div>
+        </div>
+        <div class="text-center pt-2 pb-5 copyright">MARIAN CARON <span id="publish-year">©2020</span></div>
+    </div>
+  </footer>
   <script src="assets/javascript/script.js"></script>
 </body>
 </html>

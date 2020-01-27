@@ -35,17 +35,35 @@ body {
   text-align: center;
 }
 
+#bio {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+#bio-description {
+  text-align: center;
+}
+
 #profile-pic {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  margin: 0 2vh 3vh 2vw;
 }
 
 #about {
   padding: 8vh 0;
+  color: #212121;
 }
 
 #projects {
+  padding: 8vh 0;
+  color: #212121;
   background-color: #F5F5F5;
-  height: 300px;
+}
+
+#contact {
+  padding: 8vh 0;
+  color: white;
+  background-color: #252525
 }
