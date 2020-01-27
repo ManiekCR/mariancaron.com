@@ -1,5 +1,6 @@
-.card {
+.card img {
   width: 375px;
   height: 250px;
-  margin: 10px;
+  background-size: cover;
+  background-position: center;
 }
