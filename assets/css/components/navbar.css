@@ -12,3 +12,6 @@
   color: inherit;
 }
 
+.navbar a:hover {
+  color: white;
+}
