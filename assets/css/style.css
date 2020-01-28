@@ -36,7 +36,7 @@ body {
 }
 
 #bio {
-  max-width: 300px;
+  max-width: 460px;
   margin-right: 20px;
 }
 
@@ -54,6 +54,7 @@ body {
 #about {
   padding: 8vh 0;
   color: #212121;
+  max-height: 950px;
 }
 
 #projects {
