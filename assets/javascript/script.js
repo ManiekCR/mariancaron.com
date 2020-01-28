@@ -1,3 +1,4 @@
+//To change navbar buttons color on click
 // Get the list of buttons
 let buttons = document.querySelectorAll('.navbar a');
 
@@ -12,3 +13,13 @@ for (let i = 0; i < buttons.length; i++) {
     this.className += " active";
   });
 }
+
+//To reset active class to HOME when we click on the scroll to the top button
+const homeButton = document.getElementById('home-button');
+const scrollButton = document.getElementById('link-top');
+
+scrollButton.addEventListener("click", function() {
+  let current = document.querySelector(".active");
+  current.className = current.className.replace(" active", "");
+  homeButton.classList.add("active");
+})
