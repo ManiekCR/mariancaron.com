@@ -22,10 +22,10 @@
     </div>
   </div>
   <nav class="nav navbar justify-content-start sticky-top">
-    <a class="nav-link active" href="#">HOME</a>
-    <a class="nav-link" href="#about">ABOUT</a>
-    <a class="nav-link" href="#projects">PROJECTS</a>
-    <a class="nav-link" href="#contact">CONTACT</a>
+    <a class="nav-link active" id="home-link" href="#">HOME</a>
+    <a class="nav-link" id="about-link" href="#about">ABOUT</a>
+    <a class="nav-link" id="projects-link" href="#projects">PROJECTS</a>
+    <a class="nav-link" id="contact-link" href="#contact">CONTACT</a>
   </nav>
   <!-- ABOUT -->
   <section id="about">
@@ -39,13 +39,16 @@
                 <img src="assets/images/profile-pic.jpeg" id="profile-pic" alt="profile-pic">
               </div>
               <div class="d-flex justify-content-center" id="bio-description">
-                <p>I come from France and I am currently living in Berlin, passionated about web development and new technologies.</p>
+                <div>
+                  <p>I come from France and I am currently living in Berlin. I previously worked at Booking.com as a Guest Support Specialist and I had the opportunity to learn how to code at Le Wagon, 9-week intensive coding bootcamp, learning HTML, CSS, Bootstrap, JavaScript, Databases, Git, GitHub, Heroku and Ruby on Rails.</p>
+                  <p>Designed, Implemented and Shipped to production iWell, a menthal health app which allows people to book and connect to their therapists online.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center align-items-center" id="bar-container">
             <div>
               <div class="bar d-flex">
                 <div class="bar-label"><strong>HTML</strong></div>
