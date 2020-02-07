@@ -41,7 +41,6 @@
               <div class="d-flex justify-content-center" id="bio-description">
                 <div>
                   <p>I come from France and I am currently living in Berlin. I previously worked at Booking.com as a Guest Support Specialist and I had the opportunity to learn how to code at Le Wagon, 9-week intensive coding bootcamp, learning HTML, CSS, Bootstrap, JavaScript, Databases, Git, GitHub, Heroku and Ruby on Rails.</p>
-                  <p>Designed, Implemented and Shipped to production iWell, a menthal health app which allows people to book and connect to their therapists online.</p>
                 </div>
               </div>
             </div>
@@ -93,34 +92,54 @@
           <h1 class="text-center"><strong class="border-bottom border-secondary">PROJECTS</strong></h1>
         </div>
       </div>
-      <div class="row d-flex justify-content-center mt-5 pt-3">
-        <div class="col-12 col-lg-6 col-xl-4">
-          <div class="d-flex justify-content-center m-1">
-            <a href="http://iwell.herokuapp.com/" target="_blank">
-              <div class="card">
-                <img src="assets/images/iwell.png" alt="iWell">
-              </div>
-            </a>
+      <div>
+        <div class="tabs d-flex justify-content-center mt-4 mb-4">
+          <div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">iWell</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Instrurent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Le Bar</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-4">
-          <div class="d-flex justify-content-center m-1">
-            <a href="http://rails-instrurent.herokuapp.com/" target="_blank">
-              <div class="card">
-                <img src="assets/images/instrurent.png" alt="InstruRent">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="d-flex justify-content-center">
+                <div class="card-product">
+                  <a href="http://iwell.herokuapp.com/" target="_blank"><img src="assets/images/iwell.png" /></a>
+                  <div class="card-product-infos">
+                    <p>iWell is a mental health app which allows people to book and connect to their therapists online.</p>
+                  </div>
+                </div>
               </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-xl-4">
-          <div class="d-flex justify-content-center m-1">
-            <a href="http://le-bar-berlin288.herokuapp.com" target="_blank">
-              <div class="card">
-                <img src="assets/images/lebar.png" alt="Le Bar">
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="d-flex justify-content-center">
+                <div class="card-product">
+                  <a href="http://rails-instrurent.herokuapp.com/" target="_blank"><img src="assets/images/instrurent.png" /></a>
+                  <div class="card-product-infos">
+                    <p>InstruRent is an online marketplace where people can rent and offer their instruments.</p>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="d-flex justify-content-center">
+                <div class="card-product">
+                  <a href="http://le-bar-berlin288.herokuapp.com" target="_blank"><img src="assets/images/lebar.png" /></a>
+                  <div class="card-product-infos">
+                    <p>Le Bar is a cocktail listing and creation app, users can view all or list their own cocktails.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
     </div>
   </section>
@@ -154,5 +173,8 @@
     </div>
   </footer>
   <script src="assets/javascript/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
