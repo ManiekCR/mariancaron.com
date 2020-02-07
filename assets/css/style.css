@@ -1,7 +1,6 @@
 @import url("config/colors.css");
 @import url("config/fonts.css");
 @import url("components/index.css");
-@import url("components/navbar.css");
 
 html {
   scroll-behavior: smooth;
