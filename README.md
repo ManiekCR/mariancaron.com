@@ -1,4 +1,4 @@
-## This is a static web page, made with HTML, CSS and Javascript.
+## This is my personal website, made with HTML, CSS and Javascript.
 
 ### Things to be done:
 
