@@ -1,7 +1,6 @@
 .card-product {
   overflow: hidden;
   height: 200px;
-  max-width: 1200px;
   background: white;
   display: flex;
   align-items: center;
