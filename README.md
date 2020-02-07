@@ -1,6 +1,6 @@
-##This is a static web page, made with HTML, CSS and Javascript.
+## This is a static web page, made with HTML, CSS and Javascript.
 
-###Things to be done:
+### Things to be done:
 
 - Update navbar buttons color, depending on the window position.
 - Update texts.
