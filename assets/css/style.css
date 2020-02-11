@@ -73,3 +73,9 @@ body {
     max-height: 920px;
   }
 }
+
+@media(max-width: 991px) {
+  #bio {
+    margin-right: 0px;
+  }
+}
