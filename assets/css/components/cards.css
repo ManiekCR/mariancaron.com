@@ -26,3 +26,21 @@
 .card-product .card-product-infos {
   padding: 16px;
 }
+
+@media(max-width: 500px) {
+  .card-product {
+    height: 150px;
+  }
+  .card-product img {
+  width: 225px;
+  }
+}
+
+@media(max-width: 400px) {
+  .card-product {
+    height: 100px;
+  }
+  .card-product img {
+  width: 150px;
+  }
+}

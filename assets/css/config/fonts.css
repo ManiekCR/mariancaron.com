@@ -17,3 +17,12 @@ a {
 div {
   font-family: 'Raleway', sans-serif;
 }
+
+@media(max-width: 375px) {
+  h1 {
+    font-size: 32px !important;
+  }
+  h2 {
+    font-size: 29px !important;
+  }
+}

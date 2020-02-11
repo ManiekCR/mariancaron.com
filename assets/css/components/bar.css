@@ -48,3 +48,15 @@
 #bar-container {
   height: 380px;
 }
+
+@media(max-width: 508px) {
+  .bar {
+    width: 90vw;
+  }
+}
+
+@media(max-width: 412px) {
+  .bar-label {
+    font-size: 0.7rem;
+  }
+}
