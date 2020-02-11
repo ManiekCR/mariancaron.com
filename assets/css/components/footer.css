@@ -49,3 +49,9 @@
 #cv {
   text-decoration: none;
 }
+
+@media(max-width: 448px) {
+  #footer-infos {
+    margin: -5px;
+  }
+}
