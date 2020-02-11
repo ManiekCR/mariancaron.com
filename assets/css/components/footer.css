@@ -51,8 +51,10 @@
 }
 
 @media(max-width: 448px) {
-  #footer-infos {
-    margin: -5px;
-    background: transparent;
+  .footer-links a {
+    font-size: 30px;
+  }
+  .footer {
+    height: 120px;
   }
 }
