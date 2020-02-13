@@ -68,6 +68,18 @@ body {
   background-color: #252525
 }
 
+.fa-chevron-down {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  color: white;
+}
+
+.fa-chevron-down:hover {
+  color: #5B413E;
+  cursor: pointer;
+}
+
 @media(max-width: 375px) {
   #about {
     max-height: 920px;

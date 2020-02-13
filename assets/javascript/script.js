@@ -23,3 +23,10 @@ scrollButton.addEventListener("click", function() {
   current.className = current.className.replace(" active", "");
   homeButton.classList.add("active");
 })
+
+// click on banner down arrow redirects to the about section
+const arrowDown = document.querySelector(".fa-chevron-down")
+
+arrowDown.addEventListener('click', (event) => {
+  window.scrollTo({ top: 800, behavior: 'smooth' })
+});
