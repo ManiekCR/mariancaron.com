@@ -68,14 +68,14 @@ body {
   background-color: #252525
 }
 
-.fa-chevron-down {
+#arrow-down {
   position: absolute;
   bottom: 10px;
   left: 50%;
   color: white;
 }
 
-.fa-chevron-down:hover {
+#arrow-down:hover {
   color: #5B413E;
   cursor: pointer;
 }
