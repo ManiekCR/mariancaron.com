@@ -28,5 +28,5 @@ scrollButton.addEventListener("click", function() {
 const arrowDown = document.querySelector(".fa-chevron-down")
 
 arrowDown.addEventListener('click', (event) => {
-  window.scrollTo({ top: 800, behavior: 'smooth' })
+  window.scrollTo({ top: 780, behavior: 'smooth' })
 });
