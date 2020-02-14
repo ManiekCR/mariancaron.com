@@ -43,6 +43,11 @@ body {
   text-align: center;
 }
 
+#bio-description a {
+  color: #C3413F;
+  font-weight: bold;
+}
+
 #profile-pic {
   border-radius: 50%;
   width: 150px;
@@ -53,7 +58,7 @@ body {
 #about {
   padding: 8vh 0;
   color: #212121;
-  max-height: 930px;
+  max-height: 1070px;
 }
 
 #projects {
