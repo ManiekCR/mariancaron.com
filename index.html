@@ -98,9 +98,15 @@
         <div>
           <div class="tabs d-flex justify-content-center mt-4 mb-4">
             <div>
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <ul class="nav nav-pills mb-3" id="pills-chat-tab" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">iWell</a>
+                  <a class="nav-link active" id="pills-chat-tab" data-toggle="pill" href="#pills-chat" role="tab" aria-controls="pills-chat" aria-selected="true">React Chat</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-todo-tab" data-toggle="pill" href="#pills-todo" role="tab" aria-controls="pills-todo" aria-selected="true">React Todo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-todo-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">iWell</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">InstruRent</a>
@@ -112,12 +118,33 @@
             </div>
           </div>
           <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="tab-pane fade show active" id="pills-chat" role="tabpanel" aria-labelledby="pills-chat-tab">
+              <div class="d-flex justify-content-center">
+                <div class="card-product">
+                  <a href="https://react-chat2888.herokuapp.com/" target="_blank"><img src="assets/images/react-chat.png" /></a>
+                  <div class="card-product-infos">
+                    <p>Chat application made with React / Redux for the frontend and Ruby on Rails for the backend.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show" id="pills-todo" role="tabpanel" aria-labelledby="pills-todo-tab">
+              <div class="d-flex justify-content-center">
+                <div class="card-product">
+                  <a href="http://react-todo288.herokuapp.com//" target="_blank"><img src="assets/images/react-todo.png" /></a>
+                  <div class="card-product-infos">
+                    <p>Todo application made with React / Redux for the frontend and Ruby on Rails for the backend.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="d-flex justify-content-center">
                 <div class="card-product">
                   <a href="http://iwell.herokuapp.com/" target="_blank"><img src="assets/images/iwell.png" /></a>
                   <div class="card-product-infos">
                     <p>iWell is a mental health app which allows people to book and connect to their therapists online.</p>
+                    <p>Made with Ruby on Rails.</p>
                   </div>
                 </div>
               </div>
