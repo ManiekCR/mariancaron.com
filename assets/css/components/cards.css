@@ -1,20 +1,18 @@
 .card-product {
-  overflow: hidden;
-  height: 300px;
   width: 800px;
   background: white;
   display: flex;
   align-items: center;
+  text-align: left;
 }
 
 .card-product img {
   height: 100%;
-  width: 400px;
+  width: 500px;
 }
 .card-product a {
   height: 100%;
 }
-
 
 .card-product p {
   font-size: 14px;
@@ -30,27 +28,27 @@
 
 @media(max-width: 770px) {
   .card-product {
-    height: 200px;
+    flex-direction: column;
   }
   .card-product img {
-  width: 300px;
+  width: 333px;
   }
 }
 
 @media(max-width: 500px) {
   .card-product {
-    height: 150px;
+    flex-direction: column;
   }
   .card-product img {
-  width: 225px;
+  width: 250px;
   }
 }
 
 @media(max-width: 400px) {
   .card-product {
-    height: 100px;
+    flex-direction: column;
   }
   .card-product img {
-  width: 150px;
+  width: 167px;
   }
 }
